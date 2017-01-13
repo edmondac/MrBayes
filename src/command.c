@@ -14625,46 +14625,316 @@ int StandID (char nuc)
        to look at IsMissing */
     n = nuc;
 
-    if (n == '0')
+    if (n == 'a')
         {
         return 1;
         }
-    else if (n == '1')
+
+    else if (n == 'b')
         {
         return 2;
         }
-    else if (n == '2')
+
+    else if (n == 'c')
+        {
+        return 3;
+        }
+
+    else if (n == 'd')
         {
         return 4;
         }
-    else if (n == '3')
+
+    else if (n == 'e')
+        {
+        return 5;
+        }
+
+    else if (n == 'f')
+        {
+        return 6;
+        }
+
+    else if (n == 'g')
+        {
+        return 7;
+        }
+
+    else if (n == 'h')
         {
         return 8;
         }
-    else if (n == '4')
+
+    else if (n == 'i')
+        {
+        return 9;
+        }
+
+    else if (n == 'j')
+        {
+        return 10;
+        }
+
+    else if (n == 'k')
+        {
+        return 11;
+        }
+
+    else if (n == 'l')
+        {
+        return 12;
+        }
+
+    else if (n == 'm')
+        {
+        return 13;
+        }
+
+    else if (n == 'n')
+        {
+        return 14;
+        }
+
+    else if (n == 'o')
+        {
+        return 15;
+        }
+
+    else if (n == 'p')
         {
         return 16;
         }
-    else if (n == '5')
+
+    else if (n == 'q')
+        {
+        return 17;
+        }
+
+    else if (n == 'r')
+        {
+        return 18;
+        }
+
+    else if (n == 's')
+        {
+        return 19;
+        }
+
+    else if (n == 't')
+        {
+        return 20;
+        }
+
+    else if (n == 'u')
+        {
+        return 21;
+        }
+
+    else if (n == 'v')
+        {
+        return 22;
+        }
+
+    else if (n == 'w')
+        {
+        return 23;
+        }
+
+    else if (n == 'x')
+        {
+        return 24;
+        }
+
+    else if (n == 'y')
+        {
+        return 25;
+        }
+
+    else if (n == 'z')
+        {
+        return 26;
+        }
+
+    else if (n == 'A')
+        {
+        return 27;
+        }
+
+    else if (n == 'B')
+        {
+        return 28;
+        }
+
+    else if (n == 'C')
+        {
+        return 29;
+        }
+
+    else if (n == 'D')
+        {
+        return 30;
+        }
+
+    else if (n == 'E')
+        {
+        return 31;
+        }
+
+    else if (n == 'F')
         {
         return 32;
         }
+
+    else if (n == 'G')
+        {
+        return 33;
+        }
+
+    else if (n == 'H')
+        {
+        return 34;
+        }
+
+    else if (n == 'I')
+        {
+        return 35;
+        }
+
+    else if (n == 'J')
+        {
+        return 36;
+        }
+
+    else if (n == 'K')
+        {
+        return 37;
+        }
+
+    else if (n == 'L')
+        {
+        return 38;
+        }
+
+    else if (n == 'M')
+        {
+        return 39;
+        }
+
+    else if (n == 'N')
+        {
+        return 40;
+        }
+
+    else if (n == 'O')
+        {
+        return 41;
+        }
+
+    else if (n == 'P')
+        {
+        return 42;
+        }
+
+    else if (n == 'Q')
+        {
+        return 43;
+        }
+
+    else if (n == 'R')
+        {
+        return 44;
+        }
+
+    else if (n == 'S')
+        {
+        return 45;
+        }
+
+    else if (n == 'T')
+        {
+        return 46;
+        }
+
+    else if (n == 'U')
+        {
+        return 47;
+        }
+
+    else if (n == 'V')
+        {
+        return 48;
+        }
+
+    else if (n == 'W')
+        {
+        return 49;
+        }
+
+    else if (n == 'X')
+        {
+        return 50;
+        }
+
+    else if (n == 'Y')
+        {
+        return 51;
+        }
+
+    else if (n == 'Z')
+        {
+        return 52;
+        }
+
+    else if (n == '0')
+        {
+        return 53;
+        }
+
+    else if (n == '1')
+        {
+        return 54;
+        }
+
+    else if (n == '2')
+        {
+        return 55;
+        }
+
+    else if (n == '3')
+        {
+        return 56;
+        }
+
+    else if (n == '4')
+        {
+        return 57;
+        }
+
+    else if (n == '5')
+        {
+        return 58;
+        }
+
     else if (n == '6')
         {
-        return 64;
+        return 59;
         }
+
     else if (n == '7')
         {
-        return 128;
+        return 60;
         }
+
     else if (n == '8')
         {
-        return 256;
+        return 61;
         }
+
     else if (n == '9')
         {
-        return 512;
+        return 62;
         }
+
     else if (n == missingId)
         {
         return MISSING;
